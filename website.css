@@ -1,0 +1,46 @@
+body{
+    background-color: #dddddd;
+}
+table, td {
+    margin: auto;
+    margin-top: auto;
+    padding: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    border-spacing: 12px;
+    user-select: none;
+  }
+
+.title{
+    margin-top: 66px;
+    text-align:center;
+    font-family: Verdana;
+    font-size: 38px;
+    font-weight: 750;
+    color: #dddddd;
+    border-radius: 2px;
+    user-select: none;
+}
+#rooms{
+    background-color: #222831;
+    color: #dddddd;
+    font-size:20px;
+}
+#status{
+    background-color: #54f0a7;
+    font-size: 15px;
+    color: black;
+}
+.island{
+    height: 350px;
+    width: 700px;
+    background-color: #30475e;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateY(-60%);
+    transform: translateX(-50%);
+    border-radius:20px;
+}
