@@ -9,7 +9,7 @@ const avail = urlParams.get('f');
 
 rooms[roomNum] = avail;
 
-const Listing_API_URL = 'http://localhost:3001/rm';
+const Listing_API_URL = 'http://localhost:5600/web';
 
 for(let i = 0; i <rooms.length; i++){
     if(rooms[roomNum] == 1){
@@ -24,8 +24,9 @@ for(let i = 0; i <rooms.length; i++){
 
 async function fetchData(){
     const res = await fetch(Listing_API_URL);
-    const data = await res.json();
-
-    console.log(data);
+    const json = await res.json();
+  
+  
+    console.log(JSON.parse(json));
 }
 fetchData();
