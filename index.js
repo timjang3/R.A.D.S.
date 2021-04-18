@@ -25,8 +25,6 @@ for(i = 0; i < 4; i++){
 
 app.get('/profile/:id', function(req, res){
   res.send('You requested to see profile with ID of ' + req.params.id);
-
-  app.listen(4000);
 })
 
 app.listen(port, () => {
