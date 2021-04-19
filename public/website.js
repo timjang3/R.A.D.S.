@@ -1,5 +1,5 @@
 let rooms = [0, 0, 0];
-const root = "http://localhost:3000";
+const root = "http://www.roomavailable.info/";
 
 getAvails();
 
