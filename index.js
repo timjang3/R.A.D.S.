@@ -21,6 +21,7 @@ app.get('/test', function(req, res){
     var room = req.query.r;
     var status = req.query.f;
     avails[room] = status;
+    res.end("done");
   });
 
 app.listen(port, () => console.log("Server is ready"));
