@@ -4,7 +4,7 @@ body{
 table, td {
     margin: auto;
     margin-top: auto;
-    padding: 14px;
+    height: 50px;
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
@@ -24,9 +24,8 @@ table, td {
     user-select: none;
 }
 #rooms{
-    background-color: #222831;
-    color: #dddddd;
-    font-size:18px;
+    background-color: none;
+    color: none;
 }
 #status{
     background-color: #54f0a7;
@@ -34,7 +33,7 @@ table, td {
     color: black;
 }
 .island{
-    height: 350px;
+    height: 360px;
     width: 700px;
     background-color: #30475e;
     position: absolute;
@@ -44,3 +43,95 @@ table, td {
     transform: translateX(-50%);
     border-radius:20px;
 }
+
+div[class='popup']:hover{
+    text-decoration:underline;
+}
+
+div[class='reserve']:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+.reserve{
+    background-color: #53637a;
+    width: 90px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #dddddd;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top:14px;
+    padding-bottom:14px;
+    border-radius: 8px;
+    font-size:20px;
+    background-color: #222831;
+    font-family: Verdana;
+  }
+  
+  /* The actual popup */
+.popuptext {
+    visibility: hidden;
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    
+    height: 350px;
+    width: 700px;
+    background-color: #30475e;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    border-radius:20px;
+    z-index: 2;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .show {
+    visibility: visible;
+  }
+
+  #email{
+      width: 250px;
+      height: 30px;
+      border-radius: 8px;
+      background-color: #dddddd;
+      border: 0;
+      outline: none;
+      font-size: 15px;
+      font-family: Verdana;
+      border: 0;
+  }
+
+  #submit{
+      margin-bottom: 39px;
+      background-color: #dddddd;
+      height: 20px;
+      border-radius:5px;
+      font-family:Verdana;
+  }
+  #entere{
+      font-family: Verdana;
+      font-size: 19px;
+  }
+  #back{
+      height:11px;
+      text-align: center;
+      font-size: 15px;
+  }

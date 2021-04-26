@@ -1,5 +1,6 @@
 let rooms = [0, 0, 0, 0];
-const root = "http://www.roomavailable.info/";
+const root = "http://www.roomavailable.info/"; 
+//const root = "http://localhost:3000/";
 
 getAvails();
 
@@ -20,4 +21,14 @@ async function getAvails() {
         }
     }
     
+}
+
+function roomInfo() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
+function reserve() {
+    var popup = document.getElementById("reservation");
+    popup.classList.toggle("show");
 }

@@ -9,12 +9,40 @@
             <div class="title">
                 <p >Piano Room Availability</p>
             </div>
+            <span class="popuptext" id="myPopup">
+                <div class="popup" onclick="roomInfo()">BACK
+                </div>
+            </span>
+            <span class="popuptext" id="reservation">
+                <div class="title">
+                    <p>Reservation</p>
+                </div>
+                <div>
+                    <form action="/reserve" method="post">
+                        <label for="email" id='entere'>Enter email: </label><br><br>
+                        <input type='text' id='email' name='email' autocomplete="off"> <br><br>
+                        <input type="submit" id='submit' value="Submit">
+                    </form>
+                </div>
+                <div class="popup" onclick="reserve()" id="back">Back</div>
+            </span>
             <table id="avail">
-                <tr id="rooms">
-                    <td>Room 1</td>
-                    <td>Room 2</td>
-                    <td>Room 3</td>
-                    <td>Room 4</td>
+                    <td>
+                        <div class="popup" onclick="roomInfo()">Room 1
+                          </div>
+                    </td>
+                    <td>
+                        <div class="popup" onclick="roomInfo()">Room 2
+                          </div>
+                    </td>
+                    <td>
+                        <div class="popup" onclick="roomInfo()">Room 3
+                          </div>
+                    </td>
+                    <td>
+                        <div class="popup" onclick="roomInfo()">Room 4
+                          </div>
+                    </td>
                 </tr>
                 <tr id="status">
                     <td id="1">Available</td>
@@ -23,6 +51,8 @@
                     <td id="4">Available</td>
                 </tr>
             </table>
+            <div class="reserve" onclick="reserve()">Reserve
+            </div>
         </div>
         <script src="./website.js"></script>
     </body>
