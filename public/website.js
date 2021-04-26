@@ -1,4 +1,4 @@
-let rooms = [0, 0, 0];
+let rooms = [0, 0, 0, 0];
 const root = "http://www.roomavailable.info/";
 
 getAvails();

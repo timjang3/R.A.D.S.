@@ -4,7 +4,7 @@ var express = require('express');
 const app = express();
 const port = process.env.PORT || '3000';
 
-let avails = [0, 0, 0];
+let avails = [0, 0, 0, 0];
 
 app.use(express.json());
 
