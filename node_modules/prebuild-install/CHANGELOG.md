@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.1.2] - 2021-04-24
+
+### Fixed
+
+- Support URL-safe strings in scoped packages ([#148](https://github.com/prebuild/prebuild-install/issues/148)) ([`db36c7a`](https://github.com/prebuild/prebuild-install/commit/db36c7a)) (Marco)
+
 ## [6.1.1] - 2021-04-04
 
 ### Fixed
@@ -37,11 +43,13 @@
 
 - Support npm 7 ([`8acccac`](https://github.com/prebuild/prebuild-install/commit/8acccac), [`08eaf6d`](https://github.com/prebuild/prebuild-install/commit/08eaf6d), [`22175b8`](https://github.com/prebuild/prebuild-install/commit/22175b8)) ([**@vweevers**](https://github.com/vweevers))
 
-## 5.3.6 - 2020-10-20
+## [5.3.6] - 2020-10-20
 
 ### Changed
 
 - Replace `mkdirp` dependency with `mkdirp-classic` ([**@ralphtheninja**](https://github.com/ralphtheninja))
+
+[6.1.2]: https://github.com/prebuild/prebuild-install/compare/v6.1.1...v6.1.2
 
 [6.1.1]: https://github.com/prebuild/prebuild-install/compare/v6.1.0...v6.1.1
 
@@ -50,3 +58,5 @@
 [6.0.1]: https://github.com/prebuild/prebuild-install/compare/v6.0.0...v6.0.1
 
 [6.0.0]: https://github.com/prebuild/prebuild-install/compare/v5.3.6...v6.0.0
+
+[5.3.6]: https://github.com/prebuild/prebuild-install/releases/tag/v5.3.6
