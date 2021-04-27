@@ -1,6 +1,6 @@
 # R.A.D.S.
 
-[website](roomavailable.info)
+[website](http://roomavailable.info)
 
 Room Availabiliity Detection Service
 
