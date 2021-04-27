@@ -1,7 +1,3 @@
-[# R.A.D.S.](http://roomavailable.info)
-
-[website](http://roomavailable.info)
-
-Room Availabiliity Detection Service
+[Room Availability Detection Service](http://roomavailable.info)
 
 Website developed for the Duke Piano rooms.
