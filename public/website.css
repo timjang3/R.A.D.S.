@@ -135,3 +135,11 @@ div[class='reserve']:hover{
       text-align: center;
       font-size: 15px;
   }
+
+  #link{
+      font-family:verdana;
+      font-weight: bold;
+      text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
