@@ -1,4 +1,6 @@
-# R.A.D.S. roomavailable.info
+# R.A.D.S.
+
+roomavailable.info
 
 Room Availabiliity Detection Service
 
