@@ -1,4 +1,4 @@
-# R.A.D.S.
+[# R.A.D.S.](http://roomavailable.info)
 
 [website](http://roomavailable.info)
 
